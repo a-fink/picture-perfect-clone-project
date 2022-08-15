@@ -1,0 +1,10 @@
+body{
+    margin: 0px;
+    line-height: 1;
+    box-sizing: border-box;
+
+    background-color: rgb(243, 242, 239);
+    color: rgb(40, 64, 12);
+    font-family: Calibre, "Helvetica Neue", sans-serif;
+    text-size-adjust: 100%;
+}

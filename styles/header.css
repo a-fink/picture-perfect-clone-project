@@ -1,0 +1,111 @@
+/* terms header bar */
+.terms-header{
+    width: 100%;
+    min-height: 40px;
+    z-index: 1000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(234, 232, 228);
+}
+
+.terms-header__text{
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: Calibre, Helvetica, Arial, sans-serif;
+}
+
+.terms-header__link{
+    border-bottom: 1px solid rgb(194, 194, 194);
+    text-decoration: none;
+}
+
+
+/* navigation bar */
+.nav-bar{
+    max-width: 1280px;
+    height: 70px;
+    min-height: 70px;
+    padding: 0 24px;
+    margin: 0 auto;
+    z-index: 500;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar__logo-image{
+    width: 154px;
+    height: 28.656px;
+}
+
+.nav-bar__nav-items{
+    width: 58.55%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-bar__list{
+    height: 70px;
+    width: 418.33px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar__list-link{
+    padding: 2px 0;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+
+    color: rgb(0, 0, 0);
+    font-size: 0.95rem;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    font-weight: 400;
+    font-family: Calibre, Helvetica, Arial, sans-serif;
+
+    transition: border-bottom 0.25s ease 0s;
+}
+
+.nav-bar__list-link:hover{
+    border-bottom: 2px solid rgb(0, 197, 133);
+}
+
+.nav-bar__nav-button{
+    width: 154.16px;
+    height: 70px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-button__button{
+    height: 36px;
+    padding: 6px 16px 8px;
+    border-radius: 24px;
+    margin-left: 24px;
+
+    background-color: rgb(0, 197, 133);
+    color: rgb(255, 255, 255);
+    border: 1px solid transparent;
+    font-family: Calibre, Helvetica, Arial, sans-serif;
+    font-size: 0.91rem;
+    letter-spacing: 0.02rem;
+    line-height: 1.15;
+    font-weight: 600;
+
+    transition: background-color 0.2s ease 0s, color 0.2s ease 0s, border 0.2s ease 0s;
+}
+
+.nav-button__button:hover{
+    background-color: transparent;
+    color: rgb(0, 197, 133);
+    border: 1px solid rgb(0, 197, 133);
+}
