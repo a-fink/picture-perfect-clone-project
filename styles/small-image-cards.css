@@ -1,4 +1,9 @@
 /* two side-by-side medium horizontal pictures cards */
+.two-picture-cards-container{
+    width: 100%;
+    margin-top: 32px;
+}
+
 .two-picture-cards{
     min-width: calc(100% + 24px);
     margin: -12px;
@@ -110,13 +115,8 @@
     width: 167.56px;
 }
 
-/* promoted sites - 3 side by side vertical picture cards */
-.promoted-sites{
-    width: 100%;
-    padding: 40px 0;
-}
-
-.promoted-sites__heading{
+/* heading styles for all lower picture sections */
+.section-heading{
     margin-bottom: 32px;
 
     font-family: Calibri, Helvetica, Arial, sans-serif;
@@ -124,6 +124,12 @@
     font-weight: 500;
     letter-spacing: 0px;
     line-height: 36px;
+}
+
+/* promoted sites - 3 side by side vertical picture cards */
+.promoted-sites{
+    width: 100%;
+    padding: 40px 0;
 }
 
 .three-picture-cards{
@@ -232,11 +238,300 @@
     color: rgb(255, 255, 255);
 }
 
+/* Discovery section - 2 x 3 small picture cards*/
+.discovery{
+    width: 100%;
+    height: 900px;
+    padding: 40px 0;
+}
+
+.discovery-picture-cards{
+    width: calc(100% + 24px);
+    margin: -12px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+
+.small-picture-card-exterior{
+    max-width: 33%;
+    width: 418.66px;
+    height: 388px;
+    padding: 12px;
+    border-radius: 24px;
+}
+
+.small-picture__link{
+    width: 100%;
+    height: 100%;
+    display: block;
+
+    border-radius: 24px;
+}
+
+.small-picture-card{
+    width: 394.66px;
+    height: 364px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.small-picture{
+    width: 394.66px;
+    height: 364px;
+    border-radius: 24px;
+}
+
+.small-picture-button-positioner{
+    width: 295.98px;
+    height: 364px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.small-picture-button{
+    width: 100%;
+    height: 58px;
+    padding-top: 16px;
+    padding-bottom: 18px;
+    margin-bottom: 25px;
+
+    border-radius: 42px;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    line-height: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.sp-1{
+    background-image: url("../images/available-tonight.png");
+    background-size: 394.66px 364px;
+}
+
+.sp-2{
+    background-image: url("../images/available-this-weekend.png");
+    background-size: 394.66px 364px;
+}
+
+.sp-3{
+    background-image: url("../images/available-next-weekend.png");
+    background-size: 394.66px 364px;
+}
+
+.sp-4{
+    background-image: url("../images/camping-near-me.png");
+    background-size: 394.66px 364px;
+}
+
+.sp-5{
+    background-image: url("../images/glamping-near-me.png");
+    background-size: 394.66px 364px;
+}
+
+.sp-6{
+    background-image: url("../images/rv-sites-near-me.jpg");
+    background-size: 394.66px 364px;
+}
+
+.spb-1{
+    background-color: rgb(177, 134, 103);
+}
+
+.spb-2{
+    background-color: rgb(23, 128, 125);
+}
+
+.spb-3{
+    background-color: rgb(128, 128, 99);
+}
+
+.spb-4{
+    background-color: rgb(151, 163, 162);
+}
+
+.spb-5{
+    background-color: rgb(175, 195, 90);
+}
+
+.spb-6{
+    background-color: rgb(192, 165, 131);
+}
+
+/* next getaway section - 6 x 3 small picture cards */
+.next-getaway{
+    width: 100%;
+    height: 2872px;
+    padding: 40px 0;
+}
+
+.next-getaway-picture-cards{
+    width: calc(100% + 24px);
+    margin: -12px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.next-getaway-card-exterior{
+    max-width: 33%;
+    width: 418.66px;
+    height: 458px;
+    padding: 12px;
+    border-radius: 24px;
+}
+
+.next-getaway__link{
+    width: 100%;
+    height: 100%;
+    display: block;
+
+    border-radius: 24px;
+}
+
+.next-getaway__content{
+    width: 100%;
+    height: 70px;
+    padding-top: 14px;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    text-align: left;
+}
+
+.next-getaway__heading{
+    width: 100%;
+    height: 28px;
+
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    font-weight: 500;
+}
+
+.next-getaway__description{
+    width: 100%;
+    height: 28px;
+
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+
+.sp-7{
+    background-image: url("../images/beach-stays.png");
+    background-size: 394.66px 364px;
+}
+
+.sp-8{
+    background-image: url("../images/pet-friendly-sites.jpg");
+    background-size: 394.66px 364px;
+}
+
+.sp-9{
+    background-image: url("../images/lake-camping.jpg");
+    background-size: 394.66px 364px;
+}
+
+.sp-10{
+    background-image: url("../images/joshua-tree.png");
+    background-size: 394.66px 364px;
+}
+
+.sp-11{
+    background-image: url("../images/shenandoah.jpg");
+    background-size: 394.66px 364px;
+}
+
+.sp-12{
+    background-image: url("../images/zion.png");
+    background-size: 394.66px 364px;
+}
+
+.sp-13{
+    background-image: url("../images/rocky-mountains.jpg");
+    background-size: 394.66px 364px;
+}
+
+.sp-14{
+    background-image: url("../images/white-mountains.jpg");
+    background-size: 394.66px 364px;
+}
+
+.sp-15{
+    background-image: url("../images/yosemite.jpg");
+    background-size: 394.66px 364px;
+}
+
+.sp-16{
+    background-image: url("../images/smoky-mountains.jpg");
+    background-size: 394.66px 364px;
+}
+
+.sp-17{
+    background-image: url("../images/catskills.jpg");
+    background-size: 394.66px 364px;
+}
+
+.sp-18{
+    background-image: url("../images/big-bend.jpg");
+    background-size: 394.66px 364px;
+}
+
+.sp-19{
+    background-image: url("../images/valley-of-fire.jpg");
+    background-size: 394.66px 364px;
+}
+
+.sp-20{
+    background-image: url("../images/yellowstone.jpg");
+    background-size: 394.66px 364px;
+}
+
+.sp-21{
+    background-image: url("../images/green-mountains.jpg");
+    background-size: 394.66px 364px;
+}
+
+.sp-22{
+    background-image: url("../images/blue-ridge.jpg");
+    background-size: 394.66px 364px;
+}
+
+.sp-23{
+    background-image: url("../images/bryce-canyon.png");
+    background-size: 394.66px 364px;
+}
+
+.sp-24{
+    background-image: url("../images/hill-county.jpg");
+    background-size: 394.66px 364px;
+}
+
 
 /* all pictures that do an upwards shift on mouseover */
 .shifting-picture-card{
     transform: translateY(5px);
-    transition: transform 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 02;
+    transition: transform 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
 }
 
 .shifting-picture-card:hover{
