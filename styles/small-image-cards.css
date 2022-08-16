@@ -112,8 +112,126 @@
 
 /* promoted sites - 3 side by side vertical picture cards */
 .promoted-sites{
-
+    width: 100%;
+    padding: 40px 0;
 }
+
+.promoted-sites__heading{
+    margin-bottom: 32px;
+
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 36px;
+}
+
+.three-picture-cards{
+    width: calc(100% + 24px);
+    margin: -12px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.medium-vertical-picture-card-exterior{
+    max-width: 33%;
+    width: 418.66px;
+    height: 672px;
+    padding: 12px;
+}
+
+.medium-vertical__link{
+    display: block;
+    height: 648px;
+    width: 394.66px;
+
+    border-bottom: 1px solid rgb(194, 194, 194);
+    border-radius: 24px;
+}
+
+.medium-vertical-picture-card{
+    height: 648px;
+    width: 394.66px;
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    border-radius: 24px;
+}
+
+.medium-vertical-picture{
+    height: 648px;
+    width: 394.66px;
+}
+
+.mvp-left{
+    background-image: url("../images/hidden-gems.png");
+    background-size: 394.66px 648px;
+    background-position: right 0% top 0%;
+}
+
+.mvp-center{
+    background-image: url("../images/project-monarch.png");
+    background-size: 394.66px 648px;
+    background-position: right 0% top 15%;
+}
+
+.mvp-right{
+    background-image: url("../images/cottage-stays.jpg");
+    background-size: 394.66px 648px;
+    background-position: right 0% top 0%;
+}
+
+.medium-vertical-container{
+    width: 100%;
+    height: 133px;
+    padding-top: 29px;
+    padding-bottom: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 0px 0px 24px 24px;
+}
+
+.mvc-left{
+    background-color: rgb(119, 115, 43);
+    color: rgb(119, 115, 43);
+}
+
+.mvc-center{
+    background-color: rgb(129, 154, 105);
+    color: rgb(129, 154, 105);
+}
+
+.mvc-right{
+    background-color: rgb(228, 189, 158);
+    color: rgb(228, 189, 158);
+}
+
+.medium-vertical-container__heading{
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 36px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.medium-vertical-container__text{
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 28px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
 
 /* all pictures that do an upwards shift on mouseover */
 .shifting-picture-card{
