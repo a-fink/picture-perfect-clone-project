@@ -14,28 +14,132 @@
                 <a href="#" class="terms-header__link" target="_blank">here</a>.
             </span>
         </div>
-        <div class="nav-bar">
-            <div class="nav-bar__logo">
-                <a href="#"><img src="./images/logo.png" alt="Hipcamp logo" class="nav-bar__logo-image"></a>
+    </header>
+    <div class="nav-bar">
+        <div class="nav-bar__logo">
+            <a href="#"><img src="./images/logo.png" alt="Hipcamp logo" class="nav-bar__logo-image"></a>
+        </div>
+        <div class="nav-bar__nav-items">
+            <div class="nav-bar__list">
+                <div class="nav-bar__list-item"><a href="#" class="nav-bar__list-link">Near Me</a></div>
+                <div class="nav-bar__list-item"><a href="#" class="nav-bar__list-link">About</a></div>
+                <div class="nav-bar__list-item"><a href="#" class="nav-bar__list-link">Earn Hipcash</a></div>
+                <div class="nav-bar__list-item"><a href="#" class="nav-bar__list-link">Log in</a></div>
+                <div class="nav-bar__list-item"><a href="#" class="nav-bar__list-link">Sign up</a></div>
             </div>
-            <div class="nav-bar__nav-items">
-                <div class="nav-bar__list">
-                    <div class="nav-bar__list-item"><a href="#" class="nav-bar__list-link">Near Me</a></div>
-                    <div class="nav-bar__list-item"><a href="#" class="nav-bar__list-link">About</a></div>
-                    <div class="nav-bar__list-item"><a href="#" class="nav-bar__list-link">Earn Hipcash</a></div>
-                    <div class="nav-bar__list-item"><a href="#" class="nav-bar__list-link">Log in</a></div>
-                    <div class="nav-bar__list-item"><a href="#" class="nav-bar__list-link">Sign up</a></div>
+            <div class="nav-bar__nav-button">
+                <button class="nav-button__button" type="button">Start Hosting</button>
+            </div>
+        </div>
+    </div>
+    <main>
+        <h2 class="page-heading">Find yourself outside.</h2>
+        <h1 class="page-sub-heading">Discover and book tent camping, RV parks, cabins, treehouses, and glamping.</h1>
+        <div class="big-picture-with-form">
+            <form class="big-picture__form">
+                <div class="form__inputs-div">
+                    <div class="form__location-div">
+                        <label for="where-to" class="form-label">Where to?</label>
+                        <div class="location-div__container">
+                            <button class="form-icon-button" type="button"><img class="form-icon-image" src="./images/search-icon.png" alt="search icon"></button>
+                            <input type="text" name="where-to" class="location-div__input form-input-text" placeholder="Try Yosemite, Napa, Moab...">
+                        </div>
+                    </div>
+                    <div class="form__dates-div">
+                        <label for="dates" class="form-label">Dates</label>
+                        <div class="dates-div__container">
+                            <button class="form-icon-button" type="button"><img class="form-icon-image" src="./images/calendar-icon.png" alt="calendar icon"></button>
+                            <input type="text" name="dates" class="dates-div__input form-input-text" placeholder="Enter dates">
+                        </div>
+                    </div>
+                    <div class="form__guests-div">
+                        <label for="guests" class="form-label">Guests</label>
+                        <div class="guests-div__container">
+                            <button class="form-icon-button" type="button"><img class="form-icon-image" src="./images/people-button.png" alt="person icon"></button>
+                            <input type="text" name="guests" class="guests-div__input form-input-text" placeholder="Add guests">
+                        </div>
+                        <button class="form-icon-dropdown-button" type="button"><img class="guests-dropdown-icon" src="./images/down-arrow-icon.png" alt="down arrow"></button>
+                    </div>
                 </div>
-                <div class="nav-bar__nav-button">
-                    <button class="nav-button__button" type="button">Start Hosting</button>
+                <button class="form__search-button" type="button"><img class="form-green-search-icon" src="./images/search-icon-green-removebg.png" alt="search icon"></button>
+            </form>
+            <div class="big-picture__picture" alt="man and child in front of a tent"></div>
+        </div>
+        <div class="two-picture-cards">
+            <div class="medium-horiz-picture-card-exterior">
+                <div class="medium-horiz-picture-card shifting-picture-card">
+                    <div class="medium-horiz-picture mhp-left"></div>
+                    <div class="medium-horiz-container mhc-left">
+                        <span class="medium-horiz-container__label">Labor Day</span>
+                        <div class="medium-horiz-container__content">
+                            <span class="medium-horiz-text">Book your Labor Day long weekend trip now to get the best spot!</span>
+                            <a href="#"><div class="medium-horiz-link mhl-left">Book now</div></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="medium-horiz-picture-card-exterior">
+                <div class="medium-horiz-picture-card shifting-picture-card">
+                    <div class="medium-horiz-picture mhp-right"></div>
+                    <div class="medium-horiz-container mhc-right">
+                        <span class="medium-horiz-container__label">Save-a-spot</span>
+                        <div class="medium-horiz-container__content">
+                            <span class="medium-horiz-text">Win a one-of-a-kind Hipcamp Trip with the best REI gear.</span>
+                            <a href="#"><div class="medium-horiz-link mhl-right">Enter to win</div></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-
-    </header>
-    <main>
-
+        <div class="big-picture-orange-card">
+            <div class="orange-card__picture shifting-picture-card" alt="people feeding sheep">
+                <div class="orange-card-positioner">
+                    <div class="orange-card ">
+                        <h2 class="orange-card__title">Own land? Earn money with Hipcamp.</h2>
+                        <p class="orange-card__text">Host our community of good-natured campers, glampers, and RV travelers on your land or at your cabin.</p>
+                        <a href="#"><div class="orange-card__link">Learn more</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="promoted-sites">
+            <h2 class="promoted-sites__heading">Where to go now</h2>
+            <div class="three-picture-cards">
+                <div class="medium-vertical-picture-card-exterior">
+                    <a href="#" class="medium-vertical__link shifting-picture-card">
+                        <div class="medium-vertical-picture-card">
+                            <div class="medium-vertical-picture mvp-left"></div>
+                            <div class="medium-vertical-container mvc-left">
+                                <span class="medium-vertical-container__heading">Hidden gems</span>
+                                <span class="medium-vertical-text">Sites on the rise</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="medium-vertical-picture-card-exterior">
+                    <a href="#" class="medium-vertical__link shifting-picture-card">
+                        <div class="medium-vertical-picture-card">
+                            <div class="medium-vertical-picture mvp-center"></div>
+                            <div class="medium-vertical-container mvc-center">
+                                <span class="medium-vertical-container__heading">Project Mocharch</span>
+                                <span class="medium-vertical-text">Hosts protecting Monarch Butterflies</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="medium-vertical-picture-card-exterior">
+                    <a href="#" class="medium-vertical__link shifting-picture-card">
+                        <div class="medium-vertical-picture-card">
+                            <div class="medium-vertical-picture mvp-right"></div>
+                            <div class="medium-vertical-container mvc-right">
+                                <span class="medium-vertical-container__heading">Cottage stays</span>
+                                <span class="medium-vertical-text">Our top picks</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
 

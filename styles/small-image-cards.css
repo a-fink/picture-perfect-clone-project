@@ -1,0 +1,127 @@
+/* two side-by-side medium horizontal pictures cards */
+.two-picture-cards{
+    min-width: calc(100% + 24px);
+    margin: -12px;
+    padding: 40px 0;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.medium-horiz-picture-card-exterior{
+    padding: 12px;
+}
+
+.medium-horiz-picture-card{
+    max-width: 50%;
+    min-width: 604px;
+    height: 420px;
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    border-radius: 24px;
+}
+
+.medium-horiz-picture{
+    width: 604px;
+    height: 281.41px;
+}
+
+.mhp-left{
+    background-image: url("../images/labor-day.jpg");
+    background-size: 604px;
+    background-position: 50% 50%;
+}
+
+.mhp-right{
+    background-image: url("../images/save-a-spot.jpg");
+    background-size: 604px;
+    background-position: right 0% top 30%;
+}
+
+.medium-horiz-container{
+    min-height: 33%;
+    padding: 24px 32px;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 0px 0px 24px 24px;
+}
+
+.mhc-left{
+    background-color: rgb(144, 152, 133);
+    color: rgb(144, 152, 133);
+}
+
+.mhc-right{
+    background-color: rgb(124, 124, 55);
+    color: rgb(124, 124, 55);
+}
+
+.medium-horiz-container__label{
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.medium-horiz-container__content{
+    margin-top: 6px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.medium-horiz-text{
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.medium-horiz-link{
+    height: 50px;
+    padding: 12px 36px;
+    margin: -32px 0;
+
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 26px;
+}
+
+.mhl-left{
+    width: 149.05px;
+}
+
+.mhl-right{
+    width: 167.56px;
+}
+
+/* promoted sites - 3 side by side vertical picture cards */
+.promoted-sites{
+
+}
+
+/* all pictures that do an upwards shift on mouseover */
+.shifting-picture-card{
+    transform: translateY(5px);
+    transition: transform 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 02;
+}
+
+.shifting-picture-card:hover{
+    transform: translateY(-3px);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
+}

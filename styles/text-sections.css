@@ -1,0 +1,26 @@
+.page-heading{
+    max-width: 1232px;
+    max-height: 78px;
+    margin: 56px auto 2px auto;
+
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    font-size: 71px;
+    font-weight: 700;
+    letter-spacing: -1.44px;
+    line-height: 78px;
+    text-align: center;
+}
+
+.page-sub-heading{
+    max-width: 476;
+    width: 476px;
+    height: 68px;
+    margin: 0 auto 56px auto;
+
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 500px;
+    letter-spacing: 0px;
+    line-height: 34px;
+    text-align: center;
+}
