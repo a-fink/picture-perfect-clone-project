@@ -1,0 +1,352 @@
+.footer__outer{
+    width: 100%;
+    height: 715.45px;
+    padding: 40px 0;
+}
+
+.footer__inner{
+    max-width: 1280px;
+    height: 635.45px;
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+.footer__heading{
+    width: 100%;
+    height: 18px;
+    margin-bottom: 24px;
+
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+}
+
+/* footer logo styling */
+.footer__logo{
+    width: 100%;
+    height: 23.16px;
+    margin-bottom: 40px;
+}
+
+.footer__logo-image{
+    width: 121px;
+    height: 20.16px;
+}
+
+/* footer links styling */
+.footer__links{
+    width: 100%;
+    height: 249.73px;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__links-section{
+    width: 308px;
+    height: 219.73px;
+}
+
+.footer__links-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__links-li{
+    max-width: fit-content;
+    height: 25.55px;
+    margin-bottom: 10px;
+
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    line-height: 1.42;
+}
+
+.footer__text-section{
+    width: 616px;
+    height: 249.73px;
+}
+
+.footer__text{
+    width: 100%;
+    height: 18px;
+
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+}
+
+/* apps and languages section styling */
+.apps-and-languages{
+    width: 100%;
+    height: 174.81px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.apps-and-languages__heading{
+    width: 100%;
+    height: 18px;
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+
+.app-buttons{
+    width: 310px;
+    height: 52.81px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-store-button{
+    display: block;
+    width: 155px;
+    height: 52.81px;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+
+.apple-store-image{
+    width: 132.39px;
+    height: 44.17px;
+}
+
+.google-play-image{
+    width: 149.44px;
+    height: 44.28px;
+}
+
+.language-selector{
+    width: 265px;
+    height: 48px;
+}
+
+.language-selector__button{
+    width: 265px;
+    height: 48px;
+    padding: 0 12px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(229, 234, 223);
+    border-radius: 24px;
+}
+
+.flag-logo-positioner{
+    width: 28px;
+    height: 28px;
+    margin: 0 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-logo{
+    width: 20px;
+    height: 11px;
+}
+
+.language-name{
+    width: 187px;
+    height: 28px;
+
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    color: rgb(129, 129, 129);
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+
+.language-dropdown-icon{
+    width: 16px;
+    height: 14px;
+    position: absolute;
+    right: 15px;
+}
+
+/* links and socials section styles */
+.links-and-socials{
+    width: 100%;
+    height: 99.75px;
+    padding: 40px 0;
+    margin-top: 48px;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid rgb(222, 222, 222);
+}
+
+.links-and-socials__left{
+    max-width: 66.67%;
+    width: 821.33px;
+    height: 18.75px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    text-align: right;
+}
+
+.links-and-socials__copyright{
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+}
+
+.links-and-socials__text{
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+}
+
+.links-and-socials__right{
+    max-width: 33.33%;
+    width: 410.66px;
+    height: 18.75px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.insta-link{
+    display: block;
+    width: 31.75px;
+    height: 18.75px;
+}
+
+.insta-logo{
+    width: 15.76px;
+    height: 15.76px;
+    margin-left: 16px;
+}
+
+.facebook-link{
+    display: block;
+    width: 34px;
+    height: 18.75px;
+}
+
+.facebook-logo{
+    width: 17.44px;
+    height: 17.33px;
+    margin-left: 16px;
+}
+
+.twitter-link{
+    display: block;
+    width: 34px;
+    height: 18.75px;
+}
+
+.twitter-logo{
+    width: 18px;
+    height: 14.62px;
+    margin-left: 16px;
+}
+
+.pinterest-link{
+    display: block;
+    width: 34px;
+    height: 18.75px;
+}
+
+.pinterest-logo{
+    width: 17.44px;
+    height: 17.44px;
+    margin-left: 16px;
+}
+
+.youtube-link{
+    display: block;
+    width: 36.25px;
+    height: 18.75px;
+}
+
+.youtube-logo{
+    width: 19.2px;
+    height: 13.5px;
+    margin-left: 16px;
+}
+
+.spotify-link{
+    display: block;
+    width: 34px;
+    height: 18.75px;
+}
+
+.spotify-logo{
+    width: 17.44px;
+    height: 17.44px;
+    margin-left: 16px;
+}
+
+/* bottom bar styles */
+.bottom-bar{
+    width: 100%;
+    height: 66px;
+
+    background-color: rgb(0, 0, 0);
+}
+
+.bottom-bar__text{
+    display: block;
+    max-width: 1280px;
+    height: 66px;
+    padding: 25px 24px;
+    margin: 0 auto;
+
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+/* help button in bottom right corner */
+.help-button{
+    width: 107.56px;
+    height: 45.97px;
+    padding: 13px 22px;
+    position: fixed;
+    top: 93.7%;
+    left: 93.2%;
+    z-index: 500;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(69, 78, 55);
+    border-radius: 24px;
+}
+
+.help-logo{
+    width: 19.98px;
+    height: 19.98px;
+    margin-right: 8px;
+}
+
+.help-text{
+    display: block;
+    width: 35.58px;
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.6;
+    font-weight: 700;
+}

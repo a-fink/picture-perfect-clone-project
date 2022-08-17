@@ -2,6 +2,7 @@ body{
     margin: 0px;
     line-height: 1;
     box-sizing: border-box;
+    position: relative;
 
     background-color: rgb(243, 242, 239);
     color: rgb(40, 64, 12);
@@ -11,6 +12,7 @@ body{
 
 main{
     max-width: 1280px;
+    height: auto;
     padding: 0 24px;
     margin: 0 auto;
 

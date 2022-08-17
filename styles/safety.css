@@ -1,0 +1,285 @@
+/* safety section stylings */
+
+.safety-outer{
+    width: 100%;
+    height: 685px;
+    padding: 40px 0;
+
+    background-color: rgb(235, 233, 223);
+}
+
+.safety-inner{
+    max-width: 1280px;
+    height: 605px;
+    padding: 0 24px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: column;
+}
+
+.safety__header{
+    width: 100%;
+    margin-bottom: 12px;
+
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 500px;
+    letter-spacing: 0px;
+    line-height: 34px;
+    text-align: left;
+}
+
+.safety__container{
+    width: 1232px;
+    height: 559px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* all buttons in safety section */
+
+.safety__button{
+    display: block;
+}
+
+.safety__button-div{
+    width: 144.48px;
+    height: 50px;
+    padding: 9px 25px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+    border: 3px solid rgb(44, 26, 15);
+    border-radius: 50px;
+    background-color: rgb(44, 26, 15);
+
+    color: rgb(255, 255, 255);
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    text-align: center;
+
+    transition: all 0.25s ease 0s;
+}
+
+.safety__button-div:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+/* inclusion section styling */
+
+.safety__inclusion{
+    width: 1232px;
+    height: 235px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 22px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgb(243, 242, 239);
+    border-radius: 8px;
+}
+
+.inclusion-container{
+    width: 1034px;
+    height: 239px;
+    margin: -12px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.inclusion__left-image{
+    width: 820px;
+    height: 123px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 22px;
+
+    border-radius: 8px;
+}
+
+.inclusion__button-positioner{
+    width: 1034px;
+    height: 94px;
+    padding: 12px;
+}
+
+.inclusion__right-image-positioner{
+    max-width: 16.67%;
+    width: 202px;
+    height: 93px;
+}
+
+.inclusion__right-image{
+    width: 160px;
+    height: 90px;
+}
+
+/* standards section styling */
+.standards__container{
+    width: 1232px;
+    height: 302px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hosting-standards__container-outer{
+    max-width: 50%;
+    width: 586px;
+    height: 284px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 22px;
+
+    background-color: rgb(243, 242, 239);
+    border-radius: 8px;
+}
+
+.hosting-standards__container-inner{
+    width: 479.66px;
+    margin: -4px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hosting-standards__image{
+    width: 400px;
+    height: 168px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 22px;
+}
+
+.hosting-standards__button-positioner{
+    width: 100%;
+    padding: 4px;
+}
+
+.camper-standards__container-outer{
+    max-width: 50%;
+    width: 614.48px;
+    height: 284px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 40px;
+    margin-bottom: 22px;
+
+    background-color: rgb(243, 242, 239);
+    border-radius: 8px;
+}
+
+.camper-standards__container-inner{
+    width: 462.06px;
+    margin: -4px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.camper-standards__image{
+    width: 400px;
+    height: 168px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 22px;
+}
+
+.camper-standards__button-positioner{
+    width: 100%;
+    padding: 4px;
+}
+
+/* safety partners section styling */
+.safety-partners-outer{
+    width: 100%;
+    height: 628px;
+    padding: 40px 0;
+}
+
+.safety-partners-inner{
+    max-width: 1280px;
+    height: 548px;
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+.safety-partners__container{
+    width: calc(100% + 24px);
+    margin: -12px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.safety-partners__card-outer{
+    width: 418.67px;
+    height: 526px;
+    padding: 12px;
+}
+
+.safety-partners__card-inner{
+    width: 394.67px;
+    height: 480px;
+    padding: 20px 30px;
+    margin-bottom: 22px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: rgb(230, 239, 217);
+    border-radius: 8px;
+}
+
+.safety-partners__image{
+    width: 334.67px;
+    height: 333px;
+    padding-right: 74.67px;
+}
+
+/* all buttons in safety partners section */
+.safety-partners__button{
+    display: block;
+    justify-self: center;
+}
+
+.safety-partners__button-div{
+    width: 334.67px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: transparent;
+    border: 1px solid rgb(15, 56, 6);;
+    border-radius: 22px;
+
+    color: rgb(15, 56, 6);;
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    text-align: center;
+
+    transition: all 0.25s ease 0s;
+}
+
+.safety-partners__button-div:hover{
+    background-color: rgb(15, 56, 6);
+    color: rgb(255, 255, 255);
+}
