@@ -28,7 +28,7 @@
 /* text sections at bottom of page */
 .text-sections{
     width: 100%;
-    height: 1125px;
+    height: auto;
     margin: 32px 0;
 }
 

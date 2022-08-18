@@ -1,5 +1,3 @@
-
-
 /* big picture under form */
 .big-picture__picture{
     width: 100%;
@@ -101,11 +99,8 @@
 
 /* infographic */
 .infographic{
-    width: 100%;
-    height: 705.45px;
-
-    background-image: url("../images/infographic.png");
-    background-size: cover;
+    max-width: 100%;
+    height: auto;
 }
 
 /* big picture with purple card */

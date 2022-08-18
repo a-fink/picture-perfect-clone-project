@@ -30,16 +30,18 @@
 }
 
 .safety__container{
-    width: 1232px;
+    max-width: 1232px;
+    min-width: 0;
     height: 559px;
+
     display: flex;
     flex-wrap: wrap;
 }
 
 /* all buttons in safety section */
-
 .safety__button{
     display: block;
+    width: 100%;
 }
 
 .safety__button-div{
@@ -70,9 +72,9 @@
 }
 
 /* inclusion section styling */
-
 .safety__inclusion{
-    width: 1232px;
+    max-width: 1212px;
+    min-width: 100%;
     height: 235px;
     padding-top: 20px;
     padding-left: 20px;
@@ -88,7 +90,8 @@
 }
 
 .inclusion-container{
-    width: 1034px;
+    max-width: 1034px;
+    min-width: 0;
     height: 239px;
     margin: -12px;
 
@@ -97,9 +100,14 @@
     flex-wrap: wrap;
 }
 
+.inclusion__left-image-positioner{
+    max-width: 1034px;
+    min-width: 100%;
+}
+
 .inclusion__left-image{
-    width: 820px;
-    height: 123px;
+    max-width: 800px;
+    height: auto;
     padding-top: 20px;
     padding-left: 20px;
     margin-bottom: 22px;
@@ -108,7 +116,8 @@
 }
 
 .inclusion__button-positioner{
-    width: 1034px;
+    max-width: 100%;
+    min-width: 0;
     height: 94px;
     padding: 12px;
 }
