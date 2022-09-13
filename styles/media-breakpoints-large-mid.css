@@ -1,0 +1,289 @@
+/* large screens */
+@media screen and (min-width: 960px) {
+    /* turn off menu button and have nav bar on */
+    .nav-bar__menu-button{
+        display: none;
+    }
+
+    /* turn off search text so only image of search icon will show */
+    .form-green-search-div{
+        display: none;
+    }
+
+    /* turn off wide versions of hosting/camper standards so narrow versions will show */
+    .hosting-standards__image-wide, .camper-standards__image-wide{
+        display: none;
+    }
+}
+
+/* tablets and smaller screens */
+@media screen and (max-width: 959px) {
+    /* turn off nav list and have menu button on */
+    .nav-bar__list{
+        display: none;
+    }
+
+    /* form changes */
+    .big-picture-with-form{
+        height: 488px;
+        margin: 0;
+    }
+
+    .big-picture__form{
+        width: 100%;
+        height: 244px;
+        padding: 0;
+        margin: 0;
+
+        flex-wrap: wrap;
+
+        border: none;
+        border-radius: 10px;
+        box-shadow: none;
+    }
+
+    .form__inputs-div{
+        height: 176px;
+
+        flex-wrap: wrap;
+    }
+
+    .form__location-div{
+        max-width: 95%;
+        flex-basis: 100%;
+    }
+
+    .form__dates-div{
+        min-width: 47.5%;
+    }
+
+    .form__guests-div{
+        min-width: 47.5%;
+    }
+
+    .form__search-button{
+        min-width: 95%;
+        height: 38px;
+        margin: 8px 8px 24px 8px;
+        padding: 4px 0;
+
+        top: 0;
+    }
+
+    /* turn off search image so search text will show */
+    .form-green-search-icon{
+        display: none;
+    }
+
+    /* big picture changes */
+    .big-picture__picture{
+        height: 260px;
+        top: -40px;
+    }
+
+    /* small picture card changes - formerly 2 horizontal picture cards */
+    .two-picture-cards-container{
+        height: fit-content;
+        margin: 20px 0;
+    }
+
+    .two-picture-cards{
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+
+    .medium-horiz-picture-card-exterior, .medium-horiz-picture-card{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .medium-horiz-picture{
+        max-width: 100%;
+    }
+
+    .mhp-left, .mhp-right{
+        background-size: 100%;
+    }
+
+    /* small picture card changes - formerly 3 vertical picture cards */
+    .three-picture-cards{
+        height: fit-content;
+        margin: 20px 0;
+
+        flex-wrap: wrap;
+        row-gap: 25px;
+    }
+
+    .medium-vertical-picture-card-exterior{
+        max-width: 100%;
+        width: 100%;
+        height: 480px;
+    }
+
+    .medium-vertical__link, .medium-vertical-picture-card{
+        max-width: 100%;
+        height: 480px;
+    }
+
+    .medium-vertical-picture{
+        max-width: 100%;
+        height: 357px;
+    }
+
+    .mvp-left{
+        background-size: 100%;
+        background-position: right 0% top 47%;
+    }
+
+    .mvp-center{
+        background-size: 100%;
+        background-position: right 0% top 43%;
+    }
+
+    .mvp-right{
+        background-size: 100%;
+        background-position: right 0% top 42%;
+    }
+
+    /* small picture cards - discovery section - formerly 2x3 layout*/
+    .discovery{
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .discovery-picture-cards{
+        row-gap: 25px;
+    }
+
+    .small-picture-card-exterior{
+        max-width: 100%;
+        width: 100%;
+        height: 324px;
+    }
+
+    .small-picture__link, .small-picture-card{
+        max-width: 100%;
+        height: 324px;
+    }
+
+    .small-picture{
+        max-width: 100%;
+        height: 324px;
+    }
+
+    .small-picture-button-positioner{
+        height: 324px;
+    }
+
+    .sp-1, .sp-2, .sp-3, .sp-4, .sp-5, .sp-6{
+        background-size: 100%;
+        background-position: right 0% top 50%;
+    }
+
+    /* small picture cards - next getaway section - formerlly 6x3 layout */
+    .next-getaway{
+        height: fit-content;
+        margin: 20px 0;
+
+        justify-content: space-between;
+        row-gap: 5px;
+    }
+
+    .next-getaway-picture-cards{
+        row-gap: 5px;
+    }
+
+    .next-getaway-card-exterior{
+        max-width: 50%;
+        width: 50%;
+    }
+
+    .sp-7, .sp-8, .sp-9, .sp-10, .sp-11, .sp-12, .sp-13, .sp-14, .sp-15,
+    .sp-16, .sp-17, .sp-18, .sp-19, .sp-20, .sp-21, .sp-22, .sp-23, .sp-24{
+        max-width: 100%;
+        height: 364px;
+        background-size: 100%;
+    }
+
+    /* bottom text sections */
+    .text-sections{
+        height: fit-content;
+        margin: 56px 0;
+    }
+
+    .text-sections__container{
+        min-height: 175px;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .text-sections__text{
+        min-width: 100%;
+    }
+
+    /* safety at hipcamp section */
+    .inclusion__right-image-positioner, .inclusion__right-image{
+        display: none;
+    }
+
+    .standards__container{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .hosting-standards__container-outer{
+        max-width: 100%;
+        width: 100%;
+        height: 256.5px;
+        margin-right: 0;
+    }
+
+    .hosting-standards__container-inner, .hosting-standards__image-positioner{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .camper-standards__container-outer{
+        max-width: 100%;
+        width: 100%;
+        height: 256.5px;
+    }
+
+    .camper-standards__container-inner, .camper-standards__image-positioner{
+        max-width: 100%;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    /* turn off narrow versions of hosting/camper standards so wider versions will show  */
+    .hosting-standards__image, .camper-standards__image{
+        display: none;
+    }
+
+    /* safety partners section */
+    .safety-partners-outer{
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+
+    .safety-partners-inner{
+        height: fit-content;
+    }
+
+    .safety-partners__card-outer{
+        max-width: 50%;
+        width: 50%;
+    }
+
+    /* footer */
+    .links-and-socials{
+        height: 168px;
+    }
+
+    .links-and-socials__left{
+        height: 88px;
+
+        flex-direction: column;
+    }
+}
