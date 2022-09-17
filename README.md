@@ -1,5 +1,7 @@
 # Picture Perfect Clone Project
-The aim of this project was to create a pixel-perfect clone of a web page including all elements, styling, transition effects, and media breakpoints.
+
+## Goal
+To cement my knowledge of HTML / CSS by creating a pixel-perfect clone of a web page including all elements, styling, transition effects, and media breakpoints.
 
 ## Technologies Used
 - HTML5
