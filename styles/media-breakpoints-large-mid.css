@@ -10,8 +10,16 @@
         display: none;
     }
 
-    /* turn off wide versions of hosting/camper standards so narrow versions will show */
-    .hosting-standards__image-wide, .camper-standards__image-wide{
+    /* turn off wide versions so narrow versions will show */
+    .hosting-standards__image-wide,
+    .camper-standards__image-wide{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    /* this one should be off for both large screens and tablet size */
+    .inclusion__left-image-narrow{
         display: none;
     }
 }
@@ -21,6 +29,10 @@
     /* turn off nav list and have menu button on */
     .nav-bar__list{
         display: none;
+    }
+
+    .nav-bar__positioner{
+        position: static;
     }
 
     /* form changes */
@@ -55,10 +67,12 @@
 
     .form__dates-div{
         min-width: 47.5%;
+        max-width: 49%;
     }
 
     .form__guests-div{
         min-width: 47.5%;
+        max-width: 49%;
     }
 
     .form__search-button{
@@ -66,7 +80,6 @@
         height: 38px;
         margin: 8px 8px 24px 8px;
         padding: 4px 0;
-
         top: 0;
     }
 

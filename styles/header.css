@@ -98,7 +98,7 @@ header{
 
 .nav-bar__list{
     height: 70px;
-    width: 418.33px;
+    width: 457.766px;
 
     display: flex;
     justify-content: space-around;
@@ -125,7 +125,7 @@ header{
 }
 
 .nav-bar__nav-button{
-    width: 154.16px;
+    width: 111.578px;
     height: 70px;
 
     display: flex;
@@ -134,8 +134,8 @@ header{
 }
 
 .nav-button__button{
-    height: 38px;
-    width: 130.16px;
+    height: 36px;
+    width: 87.578px;
     padding: 6px 16px 8px;
     border-radius: 24px;
     margin-left: 24px;
@@ -144,7 +144,7 @@ header{
     color: rgb(255, 255, 255);
     border: 1px solid transparent;
     font-family: Calibri, Helvetica, Arial, sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.15em;
     letter-spacing: 0.1px;
     font-weight: 600;

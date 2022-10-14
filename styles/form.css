@@ -24,7 +24,8 @@
 .form__inputs-div{
     max-width: 1024px;
     min-width: 95%;
-    height: 88px;
+    min-height: 88px;
+    height: fit-content;
     margin: -8px;
     z-index: inherit;
 

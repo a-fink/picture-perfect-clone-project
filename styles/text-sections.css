@@ -1,6 +1,6 @@
 .page-heading{
     max-width: 1232px;
-    max-height: 78px;
+    min-height: fit-content;
     margin: 56px auto 2px auto;
 
     font-family: Calibri, Helvetica, Arial, sans-serif;
