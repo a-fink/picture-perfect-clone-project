@@ -1,5 +1,7 @@
 # Picture Perfect Clone Project
 
+[Live site](https://picture-perfect-clone.netlify.app/)
+
 ## Goal
 To cement my knowledge of HTML / CSS by creating a pixel-perfect clone of a web page including all elements, styling, transition effects, and media breakpoints.
 
