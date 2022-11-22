@@ -1,6 +1,6 @@
 # Picture Perfect Clone Project
 
-[Live site](https://picture-perfect-clone.netlify.app/)
+[Live site](https://picture-perfect-clone.netlify.app/) | [Original site](https://www.hipcamp.com/en-US)
 
 ## Goal
 To cement my knowledge of HTML / CSS by creating a pixel-perfect clone of a web page including all elements, styling, transition effects, and media breakpoints.
